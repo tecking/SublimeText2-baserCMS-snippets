@@ -439,10 +439,4 @@ SublimeText2の「Packages」フォルダ配下に「basercms」フォルダご�
     <td>$mail->indexFields()</td>
   </tr>
 
-  <tr>
-    <td>bci</td>
-    <td>$blog->img()</td>
-  </tr>
-
-
 </table>
