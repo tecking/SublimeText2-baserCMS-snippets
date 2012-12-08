@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$blog->allowPublish(\$post);
+]]></content>
+	<tabTrigger>bbap</tabTrigger>
+	<scope>source.php</scope>
+	<description>blog->allowPublish()</description>
+</snippet>

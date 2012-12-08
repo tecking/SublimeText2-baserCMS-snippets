@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$blog->descriptionExists();
+]]></content>
+	<tabTrigger>bbde</tabTrigger>
+	<scope>source.php</scope>
+	<description>blog->descriptionExists()</description>
+</snippet>

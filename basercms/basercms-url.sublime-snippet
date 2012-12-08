@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->url();
+]]></content>
+	<tabTrigger>bcur</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->url()</description>
+</snippet>

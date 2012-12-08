@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->setSubMenus('${1:Submenus}');
+]]></content>
+	<tabTrigger>bcssm</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->setSubMenus()</description>
+</snippet>

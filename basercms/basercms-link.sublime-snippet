@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->link('${1:Title}','${2:Url}');
+]]></content>
+	<tabTrigger>bcl</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->link()</description>
+</snippet>

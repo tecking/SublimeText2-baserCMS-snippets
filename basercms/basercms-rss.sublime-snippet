@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->rss('${1:Title}','${2:Path}');
+]]></content>
+	<tabTrigger>bcrs</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->rss()</description>
+</snippet>

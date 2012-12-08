@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->blogPosts('${1:ContentsName}');
+]]></content>
+	<tabTrigger>bcbp</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->blogPosts()</description>
+</snippet>

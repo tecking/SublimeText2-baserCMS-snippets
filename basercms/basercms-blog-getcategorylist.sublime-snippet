@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$blog->getCategoryList('${1:Categories}');
+]]></content>
+	<tabTrigger>bbgcl</tabTrigger>
+	<scope>source.php</scope>
+	<description>blog->getCategoryList()</description>
+</snippet>

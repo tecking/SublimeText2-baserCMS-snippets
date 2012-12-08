@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->addCrumb('${1:Name}');
+]]></content>
+	<tabTrigger>bcac</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->addCrumb()</description>
+</snippet>

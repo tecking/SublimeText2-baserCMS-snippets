@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->isPage();
+]]></content>
+	<tabTrigger>bcip</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->isPage()</description>
+</snippet>

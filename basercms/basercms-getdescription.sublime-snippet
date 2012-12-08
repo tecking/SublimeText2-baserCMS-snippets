@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->getDescription();
+]]></content>
+	<tabTrigger>bcgd</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->getDescription()</description>
+</snippet>

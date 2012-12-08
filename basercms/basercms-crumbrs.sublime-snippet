@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->crumbs();
+]]></content>
+	<tabTrigger>bccr</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->crumbs()</description>
+</snippet>

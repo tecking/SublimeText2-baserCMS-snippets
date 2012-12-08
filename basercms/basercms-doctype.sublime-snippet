@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$bcBaser->docType();
+]]></content>
+	<tabTrigger>bcdt</tabTrigger>
+	<scope>source.php</scope>
+	<description>bcBaser->docType()</description>
+</snippet>

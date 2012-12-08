@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$blog->postLink(\$post,'${1:Title}');
+]]></content>
+	<tabTrigger>bbpl</tabTrigger>
+	<scope>source.php</scope>
+	<description>blog->postLink()</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$blog->getTag(\$post);
+]]></content>
+	<tabTrigger>bbgtag</tabTrigger>
+	<scope>source.php</scope>
+	<description>blog->getTag()</description>
+</snippet>

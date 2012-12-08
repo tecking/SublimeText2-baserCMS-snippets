@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$blog->postContent(\$post);
+]]></content>
+	<tabTrigger>bbpc</tabTrigger>
+	<scope>source.php</scope>
+	<description>blog->postContent()</description>
+</snippet>
