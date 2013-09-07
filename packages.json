@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.0",
+    "packages": [
+        {
+            "name": "baserCMS Snippets",
+            "description": "It's the snippets for baserCMS.",
+            "author": "Goichi Maniwa",
+            "homepage": "http://blog.mani-lab.com/",
+            "last_modified": "2013-09-07 22:45:49",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0",
+                        "url": "https://codeload.github.com/goichi-m/SublimeText2-baserCMS-snippets/zip/master"
+                    }
+                ]
+            }
+        }
+    ]
+}
