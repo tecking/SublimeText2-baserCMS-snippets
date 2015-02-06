@@ -1,17 +1,17 @@
 {
-    "schema_version": "1.0",
+    "schema_version": "2.0",
     "packages": [
         {
             "name": "baserCMS Snippets",
             "description": "It's the snippets for baserCMS.",
-            "author": "Goichi Maniwa",
-            "homepage": "http://blog.mani-lab.com/",
+            "author": "tecking",
+            "homepage": "http://baser-for-wper.tecking.org/",
             "last_modified": "2013-09-07 22:45:49",
             "platforms": {
                 "*": [
                     {
-                        "version": "1.0",
-                        "url": "https://codeload.github.com/goichi-m/SublimeText2-baserCMS-snippets/zip/master"
+                        "version": "2.0",
+                        "url": "https://codeload.github.com/tecking/SublimeText2-baserCMS-snippets/zip/master"
                     }
                 ]
             }

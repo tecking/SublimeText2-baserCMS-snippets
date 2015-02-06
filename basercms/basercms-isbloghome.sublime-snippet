@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->isBlogHome();
+\$this->BcBaser->isBlogHome()
 ]]></content>
 	<tabTrigger>bcibh</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->isBlogHome()</description>
+	<description>$this->BcBaser->isBlogHome()</description>
 </snippet>

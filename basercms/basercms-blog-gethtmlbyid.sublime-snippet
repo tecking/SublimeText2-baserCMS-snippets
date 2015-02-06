@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->getHtmlById(\$post,'${1:Id}');
+\$this->Blog->getHtmlById(\$post,'${1:Id}')
 ]]></content>
 	<tabTrigger>bbghbi</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->getHtmlById()</description>
+	<description>$this->Blog->getHtmlById()</description>
 </snippet>

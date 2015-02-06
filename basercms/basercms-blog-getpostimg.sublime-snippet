@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->getPostImg(\$post);
+\$this->Blog->getPostImg(\$post)
 ]]></content>
 	<tabTrigger>bbgpi</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->getPostImg()</description>
+	<description>$this->Blog->getPostImg()</description>
 </snippet>

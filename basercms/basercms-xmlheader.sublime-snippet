@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->xmlHeader(array('version'=>"1.0",'encoding'=>"UTF-8"))
+]]></content>
+	<tabTrigger>bcx</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->xmlHeader()</description>
+</snippet>

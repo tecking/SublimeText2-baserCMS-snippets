@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->checkUpdate()
+]]></content>
+	<tabTrigger>bccu</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->existsPublishLink()</description>
+</snippet>

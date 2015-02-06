@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->footer();
+\$this->BcBaser->footer()
 ]]></content>
 	<tabTrigger>bcfo</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->footer()</description>
+	<description>$this->BcBaser->footer()</description>
 </snippet>

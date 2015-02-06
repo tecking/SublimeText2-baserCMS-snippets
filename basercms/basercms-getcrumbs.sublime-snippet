@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->getCrumbs()
+]]></content>
+	<tabTrigger>bcgc</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->getCrumbs()</description>
+</snippet>

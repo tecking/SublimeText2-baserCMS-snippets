@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->editLink()
+]]></content>
+	<tabTrigger>bcel</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->editLink()</description>
+</snippet>

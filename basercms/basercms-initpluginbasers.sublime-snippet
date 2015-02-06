@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->_initPluginBasers()
+]]></content>
+	<tabTrigger>bcipb</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->_initPluginBasers()</description>
+</snippet>

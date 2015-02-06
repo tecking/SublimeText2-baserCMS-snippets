@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->tag(\$post);
+\$this->Blog->tag(\$post)
 ]]></content>
 	<tabTrigger>bbtag</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->tag()</description>
+	<description>$this->Blog->tag()</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->isAdminUser();
+\$this->BcBaser->isAdminUser()
 ]]></content>
 	<tabTrigger>bcia</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->isAdminUser()</description>
+	<description>$this->BcBaser->isAdminUser()</description>
 </snippet>

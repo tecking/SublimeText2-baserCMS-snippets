@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->isTop(){}
+\$this->BcBaser->isTop(){}
 ]]></content>
 	<tabTrigger>bcit</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->isTop()</description>
+	<description>$this->BcBaser->isTop()</description>
 </snippet>

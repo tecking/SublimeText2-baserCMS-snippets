@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->setPageEditLink('${1:Id}')
+]]></content>
+	<tabTrigger>bcspel</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->setPageEditLink()</description>
+</snippet>

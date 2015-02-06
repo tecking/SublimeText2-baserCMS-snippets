@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->isCurrentUrl('${1:Url}')
+]]></content>
+	<tabTrigger>bcicu</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->isCurrentUrl()</description>
+</snippet>

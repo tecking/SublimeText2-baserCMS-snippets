@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->page('${1:Id}');
+\$this->BcBaser->page('${1:Url}')
 ]]></content>
 	<tabTrigger>bcp</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->page()</description>
+	<description>$this->BcBaser->page()</description>
 </snippet>

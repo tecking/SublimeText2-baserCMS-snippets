@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->author(\$post);
+\$this->Blog->author(\$post)
 ]]></content>
 	<tabTrigger>bba</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->author()</description>
+	<description>$this->Blog->author()</description>
 </snippet>

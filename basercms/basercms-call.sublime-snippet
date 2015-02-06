@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->__call('${1:Method}, ${2:Params}')
+]]></content>
+	<tabTrigger>bccl</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->__call()</description>
+</snippet>

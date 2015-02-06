@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->changePrefixToAlias('${1:Url}','${2:Type}')
+]]></content>
+	<tabTrigger>bccpta</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->changePrefixToAlias()</description>
+</snippet>

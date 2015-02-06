@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->scripts();
+\$this->BcBaser->scripts()
 ]]></content>
 	<tabTrigger>bcs</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->scripts()</description>
+	<description>$this->BcBaser->scripts()</description>
 </snippet>

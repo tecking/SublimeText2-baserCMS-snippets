@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->postTitle(\$post);
+\$this->Blog->postTitle(\$post)
 ]]></content>
 	<tabTrigger>bbpt</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->postTitle()</description>
+	<description>$this->Blog->postTitle()</description>
 </snippet>

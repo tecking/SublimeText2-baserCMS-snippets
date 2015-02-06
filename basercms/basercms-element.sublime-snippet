@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->element('${1:ElementName}');
+\$this->BcBaser->element('${1:ElementName}')
 ]]></content>
 	<tabTrigger>bce</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->element()</description>
+	<description>$this->BcBaser->element()</description>
 </snippet>

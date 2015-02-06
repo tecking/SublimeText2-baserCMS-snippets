@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->metaKeywords();
+\$this->BcBaser->metaKeywords()
 ]]></content>
 	<tabTrigger>bcmk</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->metaKeywords()</description>
+	<description>$this->BcBaser->metaKeywords()</description>
 </snippet>

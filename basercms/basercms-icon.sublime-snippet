@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->icon();
+\$this->BcBaser->icon()
 ]]></content>
 	<tabTrigger>bcic</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->icon()</description>
+	<description>$this->BcBaser->icon()</description>
 </snippet>

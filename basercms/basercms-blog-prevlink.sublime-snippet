@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->prevLink(\$post);
+\$this->Blog->prevLink(\$post)
 ]]></content>
 	<tabTrigger>bbprev</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->prevLink()</description>
+	<description>$this->Blog->prevLink()</description>
 </snippet>

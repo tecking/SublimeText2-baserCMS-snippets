@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->widgetArea('${1:No}');
+\$this->BcBaser->widgetArea('${1:No}')
 ]]></content>
 	<tabTrigger>bcwa</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->widgetArea()</description>
+	<description>$this->BcBaser->widgetArea()</description>
 </snippet>

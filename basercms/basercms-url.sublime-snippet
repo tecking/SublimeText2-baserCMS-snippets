@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$bcBaser->url();
+\$this->BcBaser->url()
 ]]></content>
 	<tabTrigger>bcur</tabTrigger>
 	<scope>source.php</scope>
-	<description>bcBaser->url()</description>
+	<description>$this->BcBaser->url()</description>
 </snippet>

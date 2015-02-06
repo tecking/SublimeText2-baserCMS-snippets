@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->existsPublishLink()
+]]></content>
+	<tabTrigger>bcepl</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->existsPublishLink()</description>
+</snippet>

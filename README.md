@@ -16,7 +16,8 @@ SublimeText2の「Packages」フォルダ配下に「basercms」フォルダご�
 
 
 ### スニペットの呼び出し
-エディタ部分で「スニペット名」を記述します。すると入力候補が表示されますので、目的のものを選択してください。
+エディタ部分で「スニペット名」を記述します。すると入力候補が表示されますので、目的のものを選択してください。  
+（画像はbaserCMS2対応版のものです）
 
 ![image](http://mani-lab.com/wp-content/uploads/2012/12/snippet1.png)
 
@@ -25,7 +26,7 @@ SublimeText2の「Packages」フォルダ配下に「basercms」フォルダご�
 ![image](http://mani-lab.com/wp-content/uploads/2012/12/snippet2.png)
 
 ### スニペット一覧
-利用できるスニペットです。スニペット名については、「$bcBaser」で始まる関数は「bc」から、「$blog」で始まるものは「bb」から、「$mail」で始まるものは「bm」から始まります。
+利用できるスニペットです。スニペット名については、「$this->BcBaser」で始まる関数は「bc」から、「$this->Blog」で始まるものは「bb」から、「$this->Mail」で始まるものは「bm」から始まります。
 <table>
   <tr>
     <th>スニペット名</th>
@@ -33,410 +34,497 @@ SublimeText2の「Packages」フォルダ配下に「basercms」フォルダご�
   </tr>
   <tr>
     <td>bci</td>
-    <td>$bcBaser->img()</td>
+    <td>$this->BcBaser->img()</td>
   </tr>
   <tr>
     <td>bce</td>
-    <td>$bcBaser->element()</td>
+    <td>$this->BcBaser->element()</td>
   </tr>  <tr>
     <td>bcit</td>
-    <td>$bcBaser->isTop()</td>
+    <td>$this->BcBaser->isTop()</td>
   </tr>  <tr>
     <td>bcbp</td>
-    <td>$bcBaser->blogPosts()</td>
+    <td>$this->BcBaser->blogPosts()</td>
   </tr>  <tr>
     <td>bct</td>
-    <td>$bcBaser->title()</td>
+    <td>$this->BcBaser->title()</td>
   </tr>  <tr>
     <td>bcmk</td>
-    <td>$bcBaser->metaKeywords()</td>
+    <td>$this->BcBaser->metaKeywords()</td>
   </tr>  <tr>
     <td>bcsk</td>
-    <td>$bcBaser->setKeywords()</td>
+    <td>$this->BcBaser->setKeywords()</td>
   </tr>  <tr>
     <td>bcmd</td>
-    <td>$bcBaser->metaDescription()</td>
+    <td>$this->BcBaser->metaDescription()</td>
   </tr>  <tr>
     <td>bcsd</td>
-    <td>$bcBaser->setDescription()</td>
+    <td>$this->BcBaser->setDescription()</td>
   </tr>  <tr>
     <td>bcx</td>
-    <td>$bcBaser->xmlHeader()</td>
+    <td>$this->BcBaser->xmlHeader()</td>
   </tr>
 
   <tr>
     <td>bcic</td>
-    <td>$bcBaser->icon()</td>
+    <td>$this->BcBaser->icon()</td>
   </tr>
 
   <tr>
     <td>bcdt</td>
-    <td>$bcBaser->docType()</td>
+    <td>$this->BcBaser->docType()</td>
   </tr>
 
   <tr>
     <td>bcc</td>
-    <td>$bcBaser->css()</td>
+    <td>$this->BcBaser->css()</td>
   </tr>
 
   <tr>
     <td>bcct</td>
-    <td>$bcBaser->contentsTitle()</td>
+    <td>$this->BcBaser->contentsTitle()</td>
   </tr>
 
   <tr>
     <td>bcj</td>
-    <td>$bcBaser->js()</td>
+    <td>$this->BcBaser->js()</td>
   </tr>
 
   <tr>
     <td>bcl</td>
-    <td>$bcBaser->link()</td>
+    <td>$this->BcBaser->link()</td>
   </tr>
 
   <tr>
     <td>bcs</td>
-    <td>$bcBaser->scripts()</td>
+    <td>$this->BcBaser->scripts()</td>
   </tr>
 
   <tr>
     <td>bcpn</td>
-    <td>$bcBaser->pagination()</td>
+    <td>$this->BcBaser->pagination()</td>
   </tr>
 
   <tr>
     <td>bccy</td>
-    <td>$bcBaser->copyYear()</td>
+    <td>$this->BcBaser->copyYear()</td>
   </tr>
 
   <tr>
     <td>bcch</td>
-    <td>$bcBaser->charset()</td>
+    <td>$this->BcBaser->charset()</td>
   </tr>
 
   <tr>
     <td>bcfl</td>
-    <td>$bcBaser->flash()</td>
+    <td>$this->BcBaser->flash()</td>
   </tr>
 
   <tr>
     <td>bcro</td>
-    <td>$bcBaser->root()</td>
+    <td>$this->BcBaser->root()</td>
   </tr>
 
   <tr>
     <td>bccn</td>
-    <td>$bcBaser->contentsName()</td>
+    <td>$this->BcBaser->contentsName()</td>
   </tr>
 
   <tr>
     <td>bcsm</td>
-    <td>$bcBaser->sitemap()</td>
+    <td>$this->BcBaser->sitemap()</td>
   </tr>
 
   <tr>
     <td>bcca</td>
-    <td>$bcBaser->cacheHeader()</td>
+    <td>$this->BcBaser->cacheHeader()</td>
   </tr>
 
   <tr>
     <td>bcfo</td>
-    <td>$bcBaser->footer()</td>
+    <td>$this->BcBaser->footer()</td>
   </tr>
 
   <tr>
     <td>bche</td>
-    <td>$bcBaser->header()</td>
+    <td>$this->BcBaser->header()</td>
   </tr>
 
   <tr>
     <td>bcrs</td>
-    <td>$bcBaser->rss()</td>
+    <td>$this->BcBaser->rss()</td>
   </tr>
 
   <tr>
     <td>bccr</td>
-    <td>$bcBaser->crumbs()</td>
+    <td>$this->BcBaser->crumbs()</td>
   </tr>
 
   <tr>
     <td>bcp</td>
-    <td>$bcBaser->page()</td>
+    <td>$this->BcBaser->page()</td>
   </tr>
 
   <tr>
     <td>bcur</td>
-    <td>$bcBaser->url()</td>
+    <td>$this->BcBaser->url()</td>
   </tr>
   <tr>
     <td>bcco</td>
-    <td>$bcBaser->content()</td>
+    <td>$this->BcBaser->content()</td>
   </tr>
   <tr>
     <td>bcfu</td>
-    <td>$bcBaser->func()</td>
+    <td>$this->BcBaser->func()</td>
   </tr>
   <tr>
     <td>bcsw</td>
-    <td>$bcBaser->swf()</td>
+    <td>$this->BcBaser->swf()</td>
   </tr>
   <tr>
     <td>bcwa</td>
-    <td>$bcBaser->widgetArea()</td>
+    <td>$this->BcBaser->widgetArea()</td>
   </tr>
   <tr>
     <td>bcfe</td>
-    <td>$bcBaser->feed()</td>
+    <td>$this->BcBaser->feed()</td>
+  </tr>
+
+  <tr>
+    <td>bcel</td>
+    <td>$this->BcBaser->editLink()</td>
+  </tr>
+
+  <tr>
+    <td>bcpl</td>
+    <td>$this->BcBaser->publishLink()</td>
+  </tr>
+  <tr>
+    <td>bctu</td>
+    <td>$this->BcBaser->themeUrl()</td>
   </tr>
   <tr>
     <td>bcgpl</td>
-    <td>$bcBaser->getPageList()</td>
+    <td>$this->BcBaser->getPageList()</td>
   </tr>
   <tr>
     <td>bcgcn</td>
-    <td>$bcBaser->getContentsName()</td>
+    <td>$this->BcBaser->getContentsName()</td>
   </tr>
   <tr>
     <td>bcgl</td>
-    <td>$bcBaser->getLink()</td>
+    <td>$this->BcBaser->getLink()</td>
   </tr>
   <tr>
     <td>bcgi</td>
-    <td>$bcBaser->getImg()</td>
+    <td>$this->BcBaser->getImg()</td>
+  </tr>
+  <tr>
+    <td>bcgc</td>
+    <td>$this->BcBaser->getCrumbs()</td>
   </tr>
   <tr>
     <td>bcge</td>
-    <td>$bcBaser->getElement()</td>
+    <td>$this->BcBaser->getElement()</td>
   </tr>
   <tr>
     <td>bcgu</td>
-    <td>$bcBaser->getUrl()</td>
+    <td>$this->BcBaser->getUrl()</td>
   </tr>
   <tr>
     <td>bcgr</td>
-    <td>$bcBaser->getRoot()</td>
+    <td>$this->BcBaser->getRoot()</td>
   </tr>
   <tr>
     <td>bcgm</td>
-    <td>$bcBaser->getMenus()</td>
+    <td>$this->BcBaser->getMenus()</td>
   </tr>
 
   <tr>
     <td>bcgd</td>
-    <td>$bcBaser->getDescription()</td>
+    <td>$this->BcBaser->getDescription()</td>
   </tr>
   <tr>
     <td>bcgk</td>
-    <td>$bcBaser->getKeywords()</td>
+    <td>$this->BcBaser->getKeywords()</td>
   </tr>
   <tr>
     <td>bcgct</td>
-    <td>$bcBaser->getContentsTitle()</td>
+    <td>$this->BcBaser->getContentsTitle()</td>
   </tr>
   <tr>
     <td>bcgt</td>
-    <td>$bcBaser->getTitle()</td>
+    <td>$this->BcBaser->getTitle()</td>
   </tr>
   <tr>
     <td>bcgh</td>
-    <td>$bcBaser->getHere()</td>
+    <td>$this->BcBaser->getHere()</td>
   </tr>
   <tr>
     <td>bcguri</td>
-    <td>$bcBaser->getUri()</td>
+    <td>$this->BcBaser->getUri()</td>
+  </tr>
+  <tr>
+    <td>bcgun</td>
+    <td>$this->BcBaser->getUserName()</td>
+  </tr>
+  <tr>
+    <td>bcicc</td>
+    <td>$this->BcBaser->includeCore()</td>
+  </tr>
+  <tr>
+    <td>bclo</td>
+    <td>$this->BcBaser->logo()</td>
+  </tr>
+  <tr>
+    <td>bcmi</td>
+    <td>$this->BcBaser->mainImage()</td>
+  </tr>
+  <tr>
+    <td>bcgti</td>
+    <td>$this->BcBaser->_getThemeImage()</td>
+  </tr>
+  <tr>
+    <td>bcgtu</td>
+    <td>$this->BcBaser->getThemeUrl()</td>
   </tr>
   <tr>
     <td>bcibh</td>
-    <td>$bcBaser->isBlogHome()</td>
+    <td>$this->BcBaser->isBlogHome()</td>
   </tr>
   <tr>
     <td>bcm</td>
-    <td>$bcBaser->mark()</td>
+    <td>$this->BcBaser->mark()</td>
   </tr>
   <tr>
     <td>bcac</td>
-    <td>$bcBaser->addCrumb()</td>
+    <td>$this->BcBaser->addCrumb()</td>
   </tr>
   <tr>
     <td>bcssm</td>
-    <td>$bcBaser->setSubMenus()</td>
+    <td>$this->BcBaser->setSubMenus()</td>
   </tr>
   <tr>
     <td>bcsct</td>
-    <td>$bcBaser->setCategoryTitle()</td>
+    <td>$this->BcBaser->setCategoryTitle()</td>
   </tr>
   <tr>
     <td>bcsd</td>
-    <td>$bcBaser->setDescription()</td>
+    <td>$this->BcBaser->setDescription()</td>
   </tr>
   <tr>
     <td>bcsk</td>
-    <td>$bcBaser->setKeywords()</td>
+    <td>$this->BcBaser->setKeywords()</td>
   </tr>
 
   <tr>
     <td>bcst</td>
-    <td>$bcBaser->setTitle()</td>
+    <td>$this->BcBaser->setTitle()</td>
+  </tr>
+
+  <tr>
+    <td>bcspel</td>
+    <td>$this->BcBaser->setPageEditLink()</td>
   </tr>
 
   <tr>
     <td>bcse</td>
-    <td>$bcBaser->set()</td>
+    <td>$this->BcBaser->set()</td>
   </tr>
 
   <tr>
     <td>bcis</td>
-    <td>$bcBaser->isSSL()</td>
+    <td>$this->BcBaser->isSSL()</td>
   </tr>
 
   <tr>
     <td>bcih</td>
-    <td>$bcBaser->isHome()</td>
+    <td>$this->BcBaser->isHome()</td>
   </tr>
 
   <tr>
     <td>bcip</td>
-    <td>$bcBaser->isPage()</td>
+    <td>$this->BcBaser->isPage()</td>
   </tr>
 
   <tr>
     <td>bcic</td>
-    <td>$bcBaser->isCategoryTop()</td>
+    <td>$this->BcBaser->isCategoryTop()</td>
   </tr>
 
   <tr>
     <td>bcia</td>
-    <td>$bcBaser->isAdminUser()</td>
+    <td>$this->BcBaser->isAdminUser()</td>
+  </tr>
+
+  <tr>
+    <td>bcicu</td>
+    <td>$this->BcBaser->isCurrentUrl()</td>
+  </tr>
+
+  <tr>
+    <td>bceel</td>
+    <td>$this->BcBaser->existsEditLink()</td>
+  </tr>
+
+  <tr>
+    <td>bcepl</td>
+    <td>$this->BcBaser->existsPublishLink()</td>
+  </tr>
+
+  <tr>
+    <td>bccu</td>
+    <td>$this->BcBaser->checkUpdate()</td>
   </tr>
 
   <tr>
     <td>bcli</td>
-    <td>$bcBaser->link($bcBaser->getImg())</td>
+    <td>$this->BcBaser->link($this->BcBaser->getImg())</td>
+  </tr>
+
+  <tr>
+    <td>bcum</td>
+    <td>$this->BcBaser->updateMessage()</td>
+  </tr>
+
+  <tr>
+    <td>bcipb</td>
+    <td>$this->BcBaser->_initPluginBasers()</td>
+  </tr>
+
+  <tr>
+    <td>bcipb</td>
+    <td>$this->BcBaser->__call()</td>
+  </tr>
+
+  <tr>
+    <td>bccpta</td>
+    <td>$this->BcBaser->changePrefixToAlias()</td>
   </tr>
 
   <tr>
     <td>bbc</td>
-    <td>$blog->category()</td>
+    <td>$this->Blog->category()</td>
   </tr>
 
   <tr>
     <td>bbpt</td>
-    <td>$blog->postTitle()</td>
+    <td>$this->Blog->postTitle()</td>
   </tr>
 
   <tr>
     <td>bbd</td>
-    <td>$blog->description()</td>
+    <td>$this->Blog->description()</td>
   </tr>
 
   <tr>
     <td>bbpi</td>
-    <td>$blog->postImg()</td>
+    <td>$this->Blog->postImg()</td>
   </tr>
 
   <tr>
     <td>bbtag</td>
-    <td>$blog->tag()</td>
+    <td>$this->Blog->tag()</td>
   </tr>
 
   <tr>
     <td>bbpl</td>
-    <td>$blog->postLink()</td>
+    <td>$this->Blog->postLink()</td>
   </tr>
 
   <tr>
     <td>bbnext</td>
-    <td>$blog->nextLink()</td>
+    <td>$this->Blog->nextLink()</td>
   </tr>
 
   <tr>
     <td>bbprev</td>
-    <td>$blog->prevLink()</td>
+    <td>$this->Blog->prevLink()</td>
   </tr>
 
   <tr>
     <td>bba</td>
-    <td>$blog->author()</td>
+    <td>$this->Blog->author()</td>
   </tr>
 
   <tr>
     <td>bbpd</td>
-    <td>$blog->postDate()</td>
+    <td>$this->Blog->postDate()</td>
   </tr>
 
   <tr>
     <td>bbpc</td>
-    <td>$blog->postContent()</td>
+    <td>$this->Blog->postContent()</td>
   </tr>
 
   <tr>
     <td>bbt</td>
-    <td>$blog->title()</td>
+    <td>$this->Blog->title()</td>
   </tr>
 
   <tr>
     <td>bbgpc</td>
-    <td>$blog->getParentCategory()</td>
+    <td>$this->Blog->getParentCategory()</td>
   </tr>
 
   <tr>
     <td>bbgpi</td>
-    <td>$blog->getPostImg()</td>
+    <td>$this->Blog->getPostImg()</td>
   </tr>
 
   <tr>
     <td>bbap</td>
-    <td>$blog->allowPublish()</td>
+    <td>$this->Blog->allowPublish()</td>
   </tr>
 
   <tr>
     <td>bbgtag</td>
-    <td>$blog->getTag()</td>
+    <td>$this->Blog->getTag()</td>
   </tr>
 
   <tr>
     <td>bbgpl</td>
-    <td>$blog->getPostLink()</td>
+    <td>$this->Blog->getPostLink()</td>
   </tr>
 
   <tr>
     <td>bbgpt</td>
-    <td>$blog->getPostTitle()</td>
+    <td>$this->Blog->getPostTitle()</td>
   </tr>
 
   <tr>
     <td>bbgcl</td>
-    <td>$blog->getCategoryList()</td>
+    <td>$this->Blog->getCategoryList()</td>
   </tr>
 
   <tr>
     <td>bbgcu</td>
-    <td>$blog->getCategoryUrl()</td>
+    <td>$this->Blog->getCategoryUrl()</td>
   </tr>
 
   <tr>
     <td>bbgc</td>
-    <td>$blog->getCategory()</td>
+    <td>$this->Blog->getCategory()</td>
   </tr>
 
   <tr>
     <td>bbgp</td>
-    <td>$blog->getPostContent()</td>
+    <td>$this->Blog->getPostContent()</td>
   </tr>
 
   <tr>
     <td>bbghbi</td>
-    <td>$blog->getHtmlById()</td>
+    <td>$this->Blog->getHtmlById()</td>
   </tr>
 
   <tr>
     <td>bbde</td>
-    <td>$blog->descriptionExists()</td>
+    <td>$this->Blog->descriptionExists()</td>
   </tr>
 
   <tr>
     <td>bmde</td>
-    <td>$mail->indexFields()</td>
+    <td>$this->Mail->indexFields()</td>
   </tr>
 
 </table>

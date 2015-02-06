@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-\$blog->getCategory(\$post);
+\$this->Blog->getCategory(\$post)
 ]]></content>
 	<tabTrigger>bbgc</tabTrigger>
 	<scope>source.php</scope>
-	<description>blog->getCategory()</description>
+	<description>$this->Blog->getCategory()</description>
 </snippet>

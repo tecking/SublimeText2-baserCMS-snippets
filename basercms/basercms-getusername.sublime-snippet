@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->BcBaser->getUserName('${1:User}')
+]]></content>
+	<tabTrigger>bcgun</tabTrigger>
+	<scope>source.php</scope>
+	<description>$this->BcBaser->getUserName()</description>
+</snippet>
